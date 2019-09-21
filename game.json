@@ -1,0 +1,566 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"bikkurireika": {
+			"type": "image",
+			"width": 115,
+			"height": 40,
+			"path": "image/bikkurireika.png"
+		},
+		"finishLabel": {
+			"type": "image",
+			"width": 600,
+			"height": 240,
+			"path": "image/finishLabel.png"
+		},
+		"gage": {
+			"type": "image",
+			"width": 344,
+			"height": 42,
+			"path": "image/gage.png"
+		},
+		"gatareika": {
+			"type": "image",
+			"width": 142,
+			"height": 50,
+			"path": "image/gatareika.png"
+		},
+		"gyakureika": {
+			"type": "image",
+			"width": 112,
+			"height": 36,
+			"path": "image/gyakureika.png"
+		},
+		"huwareika": {
+			"type": "image",
+			"width": 104,
+			"height": 39,
+			"path": "image/huwareika.png"
+		},
+		"img_num_result": {
+			"type": "image",
+			"width": 936,
+			"height": 83,
+			"path": "image/img_num_result.png"
+		},
+		"img_stg_num1": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_stg_num1.png"
+		},
+		"maxgage": {
+			"type": "image",
+			"width": 334,
+			"height": 32,
+			"path": "image/maxgage.png"
+		},
+		"needle": {
+			"type": "image",
+			"width": 53,
+			"height": 48,
+			"path": "image/needle.png"
+		},
+		"needle2": {
+			"type": "image",
+			"width": 53,
+			"height": 48,
+			"path": "image/needle2.png"
+		},
+		"nemureika": {
+			"type": "image",
+			"width": 560,
+			"height": 60,
+			"path": "image/nemureika.png"
+		},
+		"normal": {
+			"type": "image",
+			"width": 480,
+			"height": 60,
+			"path": "image/normal.png"
+		},
+		"normal_caught": {
+			"type": "image",
+			"width": 120,
+			"height": 60,
+			"path": "image/normal_caught.png"
+		},
+		"odoreika": {
+			"type": "image",
+			"width": 296,
+			"height": 29,
+			"path": "image/odoreika.png"
+		},
+		"paralysis": {
+			"type": "image",
+			"width": 550,
+			"height": 523,
+			"path": "image/paralysis.png"
+		},
+		"paralysis2": {
+			"type": "image",
+			"width": 550,
+			"height": 523,
+			"path": "image/paralysis2.png"
+		},
+		"pt": {
+			"type": "image",
+			"width": 32,
+			"height": 38,
+			"path": "image/pt.png"
+		},
+		"reika": {
+			"type": "image",
+			"width": 150,
+			"height": 63,
+			"path": "image/reika.png"
+		},
+		"reikatyon": {
+			"type": "image",
+			"width": 120,
+			"height": 60,
+			"path": "image/reikatyon.png"
+		},
+		"result_board": {
+			"type": "image",
+			"width": 457,
+			"height": 172,
+			"path": "image/result_board.png"
+		},
+		"takoreika": {
+			"type": "image",
+			"width": 960,
+			"height": 60,
+			"path": "image/takoreika.png"
+		},
+		"thunder": {
+			"type": "image",
+			"width": 1100,
+			"height": 523,
+			"path": "image/thunder.png"
+		},
+		"time": {
+			"type": "image",
+			"width": 38,
+			"height": 38,
+			"path": "image/time.png"
+		},
+		"tsuribito": {
+			"type": "image",
+			"width": 550,
+			"height": 523,
+			"path": "image/tsuribito.png"
+		},
+		"tsuribito2": {
+			"type": "image",
+			"width": 550,
+			"height": 523,
+			"path": "image/tsuribito2.png"
+		},
+		"tsuribito3": {
+			"type": "image",
+			"width": 550,
+			"height": 523,
+			"path": "image/tsuribito3.png"
+		},
+		"tsurizao": {
+			"type": "image",
+			"width": 14,
+			"height": 480,
+			"path": "image/tsurizao.png"
+		},
+		"wave": {
+			"type": "image",
+			"width": 700,
+			"height": 400,
+			"path": "image/wave.png"
+		},
+		"yuizarashi": {
+			"type": "image",
+			"width": 960,
+			"height": 60,
+			"path": "image/yuizarashi.png"
+		},
+		"bgm": {
+			"type": "audio",
+			"path": "audio/bgm/bgm",
+			"systemId": "music",
+			"duration": 50824
+		},
+		"catchSE": {
+			"type": "audio",
+			"path": "audio/catchSE/catchSE",
+			"systemId": "sound",
+			"duration": 2000
+		},
+		"konoyaro": {
+			"type": "audio",
+			"path": "audio/konoyaro/konoyaro",
+			"systemId": "sound",
+			"duration": 1700
+		},
+		"reppu": {
+			"type": "audio",
+			"path": "audio/reppu/reppu",
+			"systemId": "music",
+			"duration": 235991
+		},
+		"se_No8_RollCount2": {
+			"type": "audio",
+			"path": "audio/se_No8_RollCount2/se_No8_RollCount2",
+			"systemId": "sound",
+			"duration": 3995
+		},
+		"se_No8_RollCount_Finish": {
+			"type": "audio",
+			"path": "audio/se_No8_RollCount_Finish/se_No8_RollCount_Finish",
+			"systemId": "sound",
+			"duration": 665
+		},
+		"se_real57": {
+			"type": "audio",
+			"path": "audio/se_real57/se_real57",
+			"systemId": "sound",
+			"duration": 400
+		},
+		"json_num_result": {
+			"type": "text",
+			"path": "text/json_num_result.json"
+		},
+		"json_stg_num1": {
+			"type": "text",
+			"path": "text/json_stg_num1.json"
+		},
+		"commonDefine": {
+			"type": "script",
+			"path": "script/Common/commonDefine.js",
+			"global": true
+		},
+		"commonType": {
+			"type": "script",
+			"path": "script/Common/commonType.js",
+			"global": true
+		},
+		"DescriptionScene": {
+			"type": "script",
+			"path": "script/DescriptionScene.js",
+			"global": true
+		},
+		"AnglerManager": {
+			"type": "script",
+			"path": "script/GameManager/AnglerManager.js",
+			"global": true
+		},
+		"DistributionManager": {
+			"type": "script",
+			"path": "script/GameManager/DistributionManager.js",
+			"global": true
+		},
+		"FeverManager": {
+			"type": "script",
+			"path": "script/GameManager/FeverManager.js",
+			"global": true
+		},
+		"ReikaManager": {
+			"type": "script",
+			"path": "script/GameManager/ReikaManager.js",
+			"global": true
+		},
+		"ScoreManager": {
+			"type": "script",
+			"path": "script/GameManager/ScoreManager.js",
+			"global": true
+		},
+		"TimeManager": {
+			"type": "script",
+			"path": "script/GameManager/TimeManager.js",
+			"global": true
+		},
+		"GameScene": {
+			"type": "script",
+			"path": "script/GameScene.js",
+			"global": true
+		},
+		"Needle": {
+			"type": "script",
+			"path": "script/Needle.js",
+			"global": true
+		},
+		"ReikaBase": {
+			"type": "script",
+			"path": "script/ReikaBase.js",
+			"global": true
+		},
+		"ResultScene": {
+			"type": "script",
+			"path": "script/ResultScene.js",
+			"global": true
+		},
+		"SceneBase": {
+			"type": "script",
+			"path": "script/SceneBase.js",
+			"global": true
+		},
+		"entityUtil": {
+			"type": "script",
+			"path": "script/Util/entityUtil.js",
+			"global": true
+		},
+		"gameUtil": {
+			"type": "script",
+			"path": "script/Util/gameUtil.js",
+			"global": true
+		},
+		"spriteSheetTypes": {
+			"type": "script",
+			"path": "script/Util/spriteSheetTypes.js",
+			"global": true
+		},
+		"assetInfo": {
+			"type": "script",
+			"path": "script/assetInfo.js",
+			"global": true
+		},
+		"assetInfoType": {
+			"type": "script",
+			"path": "script/commonTypes/assetInfoType.js",
+			"global": true
+		},
+		"define": {
+			"type": "script",
+			"path": "script/define.js",
+			"global": true
+		},
+		"yureika": {
+			"type": "image",
+			"width": 960,
+			"height": 60,
+			"path": "image/yureika.png"
+		},
+		"unti": {
+			"type": "image",
+			"width": 75,
+			"height": 60,
+			"path": "image/unti.png"
+		},
+		"untireika": {
+			"type": "image",
+			"width": 240,
+			"height": 60,
+			"path": "image/untireika.png"
+		},
+		"CatchState": {
+			"type": "script",
+			"path": "script/ReikaState/CatchState.js",
+			"global": true
+		},
+		"DirectionalSwimState": {
+			"type": "script",
+			"path": "script/ReikaState/DirectionalSwimState.js",
+			"global": true
+		},
+		"ReikaStateBase": {
+			"type": "script",
+			"path": "script/ReikaState/ReikaStateBase.js",
+			"global": true
+		},
+		"RollingState": {
+			"type": "script",
+			"path": "script/ReikaState/RollingState.js",
+			"global": true
+		},
+		"SwimState": {
+			"type": "script",
+			"path": "script/ReikaState/SwimState.js",
+			"global": true
+		},
+		"VibrateCatchState": {
+			"type": "script",
+			"path": "script/ReikaState/VibrateCatchState.js",
+			"global": true
+		},
+		"VibrateSwimState": {
+			"type": "script",
+			"path": "script/ReikaState/VibrateSwimState.js",
+			"global": true
+		},
+		"throwunti": {
+			"type": "image",
+			"width": 240,
+			"height": 60,
+			"path": "image/throwunti.png"
+		},
+		"UntiReikaState": {
+			"type": "script",
+			"path": "script/ReikaState/UntiReikaState.js",
+			"global": true
+		},
+		"unticaught": {
+			"type": "image",
+			"width": 75,
+			"height": 60,
+			"path": "image/unticaught.png"
+		},
+		"getreika": {
+			"type": "audio",
+			"path": "audio/getreika/getreika",
+			"systemId": "sound",
+			"duration": 1836
+		},
+		"paralysisSound": {
+			"type": "audio",
+			"path": "audio/paralysisSound/paralysisSound",
+			"systemId": "sound",
+			"duration": 3057
+		},
+		"yuizarashi2": {
+			"type": "image",
+			"width": 960,
+			"height": 120,
+			"path": "image/yuizarashi2.png"
+		},
+		"DirectionalMotionSwimState": {
+			"type": "script",
+			"path": "script/ReikaState/DirectionalMotionSwimState.js",
+			"global": true
+		},
+		"AnglerStateBase": {
+			"type": "script",
+			"path": "script/AnglerState/AnglerStateBase.js",
+			"global": true
+		},
+		"DropState": {
+			"type": "script",
+			"path": "script/AnglerState/DropState.js",
+			"global": true
+		},
+		"ParalysedState": {
+			"type": "script",
+			"path": "script/AnglerState/ParalysedState.js",
+			"global": true
+		},
+		"PullState": {
+			"type": "script",
+			"path": "script/AnglerState/PullState.js",
+			"global": true
+		},
+		"WaitState": {
+			"type": "script",
+			"path": "script/AnglerState/WaitState.js",
+			"global": true
+		},
+		"BeforeEndState": {
+			"type": "script",
+			"path": "script/TimeState/BeforeEndState.js",
+			"global": true
+		},
+		"GameProgressState": {
+			"type": "script",
+			"path": "script/TimeState/GameProgressState.js",
+			"global": true
+		},
+		"ReadyState": {
+			"type": "script",
+			"path": "script/TimeState/ReadyState.js",
+			"global": true
+		},
+		"TimeStateBase": {
+			"type": "script",
+			"path": "script/TimeState/TimeStateBase.js",
+			"global": true
+		},
+		"img_stg_num3": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_stg_num3.png"
+		},
+		"json_stg_num3": {
+			"type": "text",
+			"path": "text/json_stg_num3.json"
+		},
+		"img_stg_num2": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_stg_num2.png"
+		},
+		"json_stg_num2": {
+			"type": "text",
+			"path": "text/json_stg_num2.json"
+		},
+		"InstantScoreViewer": {
+			"type": "script",
+			"path": "script/InstantScoreViewer.js",
+			"global": true
+		},
+		"MotionLabel": {
+			"type": "script",
+			"path": "script/MotionLabel.js",
+			"global": true
+		},
+		"alertBG": {
+			"type": "image",
+			"width": 640,
+			"height": 360,
+			"path": "image/alertBG.png"
+		},
+		"Countdown": {
+			"type": "audio",
+			"path": "audio/Countdown/Countdown",
+			"systemId": "sound",
+			"duration": 2426
+		},
+		"gamestart": {
+			"type": "audio",
+			"path": "audio/gamestart/gamestart",
+			"systemId": "sound",
+			"duration": 2805
+		},
+		"title": {
+			"type": "image",
+			"width": 640,
+			"height": 360,
+			"path": "image/title.png"
+		},
+		"sun": {
+			"type": "image",
+			"width": 200,
+			"height": 100,
+			"path": "image/sun.png"
+		},
+		"catchFeverSE": {
+			"type": "audio",
+			"path": "audio/catchFeverSE/catchFeverSE",
+			"systemId": "sound",
+			"duration": 1754
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"single",
+				"ranking"
+			]
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	}
+}
